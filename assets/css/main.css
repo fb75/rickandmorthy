@@ -1,0 +1,19 @@
+*, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Get Schwifty";
+  src: local("Get Schwifty"),
+   url(~assets/fonts/get_schwifty.ttf) format("truetype");
+}
+
+html {
+  font-family: sans-serif;
+}
+h1,
+h3 {
+  font-family: "Get Schwifty";
+}
