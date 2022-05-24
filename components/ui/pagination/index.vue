@@ -53,7 +53,7 @@ export default {
         currentPage.value > totalPages - 5 &&
         currentPage.value <= totalPages
       ) {
-        for (let j = 37; j <= totalPages; j++) {
+        for (let j = totalPages - 5; j <= totalPages; j++) {
           arr.push(j);
         }
         spliceHelperHandler(arr);
