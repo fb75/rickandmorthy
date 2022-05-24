@@ -45,7 +45,6 @@ export const actions = {
       });
   },
   async searchCharacter({ commit }, payload) {
-    console.log("ACTION------------->", payload);
     await axios
       .get(`https://rickandmortyapi.com/api/character?name=${payload}`)
       .then((data) => {
@@ -57,7 +56,6 @@ export const actions = {
       });
   },
   async pageLoad({ commit }, payload) {
-    console.log("ACTION------------->", payload);
     await axios
       .get(`https://rickandmortyapi.com/api/character/?page=${payload}`)
       .then((data) => {
